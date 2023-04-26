@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+    background-image: url(kepek/kepjo.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+h3 span {
+    color: red;
+  }
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+div {
+    margin-left: 20%;
+    margin-right:5%;
+    padding: auto;
+}
+article {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e8dfec;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: left;
+
+  line-height: 1.6;
+  font-size: 22px;
+  padding: 10px;
+}
+.szebb {
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(243, 70, 234);
+  text-shadow: 2px 2px #ecf0f1;
+}
+
+/* Responszív stílusok */
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+  }
+
+  article {
+    padding: 10px;
+  }
+
+  p {
+    text-indent: 20px;
+  }
+}
